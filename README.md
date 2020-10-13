@@ -7,3 +7,6 @@ install dependencies:
 run the app:
 > $ DEBUG=hacktoberfest2020:* npm start
 
+view the app:
+> localhost:3000
+
