@@ -1,8 +1,17 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+:root {
+  --main-bg-color: #11998e;
+  --secondary-bg-color: #FFFDE4;
+
+  --spacing-unit: 10px;
+  --margin: calc(3 * var(--spacing-unit));
+  --padding: calc(3 * var(--spacing-unit));
 }
+body { font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; margin: 0; }
 
 a {
   color: #00B7FF;
 }
+
+#mainNav { background: var(--main-bg-color); display: flex; align-items: center; justify-content: space-between; padding: var(--padding); }
+#theBeginning { background: var(--secondary-bg-color); display: flex; justify-content: space-around; align-items: center; padding: var(--padding); }
+code { background: pink; }
