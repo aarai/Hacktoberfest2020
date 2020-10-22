@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: #11998e;
-  --secondary-bg-color: #FFFDE4;
+  --secondary-bg-color: #FFC0CB;
 
   --spacing-unit: 10px;
   --margin: calc(3 * var(--spacing-unit));
