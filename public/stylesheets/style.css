@@ -7,11 +7,11 @@
   --padding: calc(3 * var(--spacing-unit));
 }
 body { font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; margin: 0; }
+.mt-5 { margin-top: 3rem; }
 
-a {
-  color: #00B7FF;
-}
+a { color: black; }
+img { width: 100%; height: auto; border: 2px solid var(--main-bg-color); }
 
 #mainNav { background: var(--main-bg-color); display: flex; align-items: center; justify-content: space-between; padding: var(--padding); }
-#theBeginning { background: var(--secondary-bg-color); display: flex; justify-content: space-around; align-items: center; padding: var(--padding); }
-code { background: pink; }
+#theBeginning { background: var(--secondary-bg-color); display: flex; justify-content: space-around; align-items: flex-start; padding: var(--padding); min-height: calc(100vh - 118px); }
+.flexcol { min-width: 300px; padding: 20px; }
